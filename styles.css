@@ -1,0 +1,224 @@
+@font-face {
+    font-family: Montserrat-Regular;
+    src: url(./modules/Montserrat/Montserrat-Regular.ttf);
+    font-family: Montserrat-Black;
+    src: url(./modules/Montserrat/Montserrat-Black.ttf);
+    font-family: Montserrat-Bold;
+    src: url(./modules/Montserrat/Montserrat-Bold.ttf);
+    font-family: Montserrat-SemiBold;
+    src: url(./modules/Montserrat/Montserrat-SemiBold.ttf);
+    font-family: Montserrat-Medium;
+    src: url(./modules/Montserrat/Montserrat-Medium.ttf);
+    font-family: Montserrat-ExtraBold;
+    src: url(./modules/Montserrat/Montserrat-ExtraBold.ttf);
+}
+
+:root {
+    --primary: #1D1A6D; 
+    --secondary: #007BFF;
+    --main-bg: #FFF;
+    --main-white: #FFFCFC;
+    --address: #474747;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--main-bg);
+    font-weight: Montserrat-Regular;
+}
+.navbar-nav {
+    min-width: 50%;
+}
+.nav-link {
+    color: var(--primary);
+    font-weight: 500;
+    font-size: 1.125rem;
+}
+.nav-link:hover {
+    transform: scale(1.1);    
+}
+.fa-bars {
+    color: var(--primary);
+}
+.content {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-bottom: 1px ridge;
+    padding: 2.5rem 0;
+}
+.main-content {
+    padding: 20px 20px;
+    height: auto;
+}
+.main-content-imp {
+    height: 89vh;
+    border-top: 1px ridge;
+    border-bottom: 1px ridge;
+}
+.main-heading {
+    font-weight: 600;
+    font-size: 36px;
+    color: var(--primary);
+    /* border: 1px solid green; */
+}
+.fnt-style {
+    line-height: 3rem;
+    font-size: 2.2rem;
+}
+.fnt-imp {
+    color: var(--secondary);
+}
+.country-detail {
+    font-size: 40px;
+    background: -webkit-linear-gradient(45deg, #FF5C01, #0DD65D);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.btn-primary {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: var(--secondary);
+    border-radius: 0;
+}
+.main-img {
+    width: 15rem;
+}
+.main-img img {
+    transition: transform 2s, filter 1.5s ease-in-out;
+    transform-origin: center center;
+    filter: brightness(60%);
+}
+.main-img:hover img {
+    filter: brightness(100%);
+    transform: scale(1.1);
+}
+
+
+/* work section */
+.rectangle {
+    background-color:  rgb(247, 247, 247);
+    width: 100%;
+    height: auto;
+}
+.rectangle-body {
+    width: 100%;
+}
+.rectangle-title {
+    height: 22%;
+    width: 100%;
+    background-color: var(--secondary);
+    color: var(--main-white);
+    font-size: 1.75rem;
+    font-weight: 600;
+    padding: 1.25rem 1.25rem;
+}
+.rectangle-content {
+    height: 78%;
+}
+.circle {
+    background-color: var(--primary);
+    border-radius: 50%;
+    padding: 0.625rem;
+    margin: 0.625rem 0.625rem;
+}
+.circle div {
+    height: 50%;
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: var(--main-white);
+    padding: 0.625rem;
+}
+.logo-container {
+    padding: 1.25rem;
+}
+.logo-bar {
+    padding: 0.625rem 1.25rem;
+}
+.bar {
+    width: 80%;
+    height: 4vh;
+}
+.bar-bg {
+    border-radius: 6.25rem;
+    background-color: rgb(224, 224, 224);
+    width: 100%;
+}
+.colored-java {
+    background-color: #73A1FB;
+    width: 100%;
+    height: 3vh;
+    border-radius: 6.25rem;
+}
+.colored-c {
+    background-color: #FFCD00;
+    width: 100%;
+    height: 3vh;
+    border-radius: 6.25rem;
+}
+.colored-python {
+    background-color: #4097CA;
+    width: 100%;
+    height: 3vh;
+    border-radius: 6.25rem;
+}
+.colored-html {
+    background-color: #E64C18;
+    width: 100%;
+    height: 3vh;
+    border-radius: 6.25rem;
+}
+.colored-css {
+    background-color: #006BC0;
+    width: 100%;
+    height: 3vh;
+    border-radius: 6.25rem;
+}
+.colored-js {
+    background-color: #E4BA42;
+    width: 100%;
+    height: 3vh;
+    border-radius: 6.25rem;
+}
+.colored-cplus {
+    background-color: #4097CA;
+    width: 100%;
+    height: 3vh;
+    border-radius: 6.25rem;
+}
+.colored-jsp {
+    background-color: rgb(54, 50, 50);
+    width: 100%;
+    height: 3vh;
+    border-radius: 6.25rem;
+}
+
+.row-content {
+    margin: 0px auto;
+    padding: 20px 20px;
+    min-height: 400px;
+}
+address {
+    font-size: 80%;
+    margin: 0px;
+    color: var(--primary);
+    font-weight: 400;
+}
+.address {
+    margin: 0;
+}
+.footer {
+    padding: 1.25rem 1.25rem;
+    margin: 1.25rem 0;
+}
+.copyright {
+    font-size: 80%;
+    color: var(--primary);
+    font-weight: 500;
+}
